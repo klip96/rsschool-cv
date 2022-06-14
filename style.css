@@ -1,0 +1,427 @@
+body {
+    background-color: #343434;
+      
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: normal;
+        color: #FFFFFF;
+        
+
+}
+.wrapper{
+    max-width: 650px;
+    margin: 0 auto;
+    
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.myPhoto {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 5px solid #fff;
+    box-shadow: 2px 1px 5px #999999;  
+}
+.leftColum{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 300px;
+    height: 830px;
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+}
+.photoMe{
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+}
+.myInfo1{
+    list-style: none;
+    margin: 0;
+    
+}
+.myInfolinks{
+    display: flex;
+    text-decoration: none;
+    color: #FFFFFF;
+    align-items: center;
+    padding: 7px 0 7px 0;
+}
+.myContacts{
+    width: 260px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contactsInfo:hover{
+    background: rgba(3, 2, 3, 0.911);
+}
+.myInfo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.contactsInfo{
+    display: block;
+    width: 260px;
+    height: 38px;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin-bottom: 5px;
+     align-items: center;
+    
+    
+}
+.myInfo1{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+
+.text1{
+    margin-bottom: 5px;
+}
+
+.jook{
+    margin-right: 10px;
+    margin-left: 5px;
+    
+}
+.industryKnow{
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+    height: 133px;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+.knowInfo{
+    margin: 0 auto;
+    height: 18px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+
+}
+.knowLinstInfo{
+    margin: 0;
+    padding-left: 12px;
+    margin-left: 12px;
+
+}
+.myLanguages{
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    width: 260px;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+.langInfo{
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+}
+.lanfUl{
+    margin-bottom: 0px;
+}
+.myHobbies{
+    width: 252px;
+    height: 90px;
+    margin: 0 auto;
+    
+}
+.hobbies{
+    width: 95px;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin-top: 0px;
+    text-align: center;
+
+}
+.hobiesList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+.hob{
+    width: 52px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.imgHobb{
+    margin: 0 auto;
+}
+.textHob{
+    margin: 0 auto;
+}
+.rightColum{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 300px;
+    height: 830px;
+    background: rgb(252, 250, 250);
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #545454;
+    padding: 10px;
+    gap: 10px;
+}
+.mySkills{
+    
+    width: 294px;
+    height: 240px;
+}
+.mySkills h2 {
+    width: 154px;
+    height: 24px;
+    background: #545454;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 10px; 
+    padding-top: 5px;
+}
+.mySkills a{
+    width: 141px;
+    height: 0px;
+
+    border: 1px solid #545454;
+}
+.headAndLien{
+    display: flex;
+    max-width: auto;
+    height: 40px;
+    align-items: center;
+}
+.aboutMe{
+    
+    width: 294px;
+    height: 256px;
+}
+.aboutMe h2 {
+    width: 154px;
+    height: 24px;
+    background: #545454;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 10px; 
+    padding-top: 5px;
+}
+.aboutMe a{
+    width: 141px;
+    height: 0px;
+
+    border: 1px solid #545454;
+}
+.mySkills ul{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-template-rows: 60px 60px;
+    grid-template-columns: 79px 79px 79px;
+    gap: 20px;
+    padding-left: 0;
+    
+}
+    
+.mySkills li{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    text-decoration: none;
+    align-items: center;
+}
+.aboutMe{
+    height: 180px;
+}
+.aboutMeText{
+    height: 150px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: justify;
+    margin: 0 auto;
+}
+.myCodeExample{
+    
+    width: 294px;
+    height: 120px;
+}
+.myCodeExample h2 {
+    width: 154px;
+    height: 24px;
+    background: #545454;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 10px; 
+    padding-top: 5px;
+}
+.myCodeExample a{
+    width: 141px;
+    height: 0px;
+    border: 1px solid #545454;
+}
+pre{
+    margin: 0 auto;
+}
+.myWorkExperience{
+    
+    width: 294px;
+    height: 100px;
+}
+.myWorkExperience h2 {
+    width: 210px;
+    height: 24px;
+    background: #545454;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 10px; 
+    padding-top: 5px;
+}
+.myWorkExperience a{
+    width: 141px;
+    height: 0px;
+    border: 1px solid #545454;
+}
+.myWorkExperience {
+   
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: justify;
+   
+}
+.profi{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #343434;
+    margin: 0 auto;
+
+}
+.profi2{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 auto;
+
+}
+.myEducation{
+    
+    width: 294px;
+    height: 150px;
+}
+.myEducation h2 {
+    width: 210px;
+    height: 24px;
+    background: #545454;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 10px; 
+    padding-top: 5px;
+}
+.myEducation a{
+    width: 141px;
+    height: 0px;
+    border: 1px solid #545454;
+}
+.myEducation li{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.myEducation ul{
+    padding-left: 0px;
+}
+.edu1{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+.edu2{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+.edu3{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 18px;
+}
+.footerContent{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #5f5f5f;
+    max-width: 605px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 5px;  
+    padding: 0 10px 0 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
